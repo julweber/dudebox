@@ -2,4 +2,4 @@
 
 DOCKER_REPO=julianweberdev
 IMAGE=dudebox
-docker run -i -t "$DOCKER_REPO/$IMAGE" /bin/bash
+docker run -it "$DOCKER_REPO/$IMAGE" /bin/sh
