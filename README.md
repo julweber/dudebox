@@ -11,12 +11,12 @@ You can also adjust the kubectl and helm client versions to install here.
 The build script will build the image locally and push it to the configured repository.
 
 ```
-bash build.sh
+sh build.sh
 ```
 
 ## Push to dockerhub
 ```
-bash push_image.sh
+sh push_image.sh
 ```
 
 ## Using the image locally
@@ -25,7 +25,7 @@ Start a sh shell in a local container:
 ```
 DOCKER_REPO=julianweberdev
 IMAGE=dudebox
-docker run -i -t "$DOCKER_REPO/$IMAGE" /bin/bash
+docker run -i -t "$DOCKER_REPO/$IMAGE" /bin/sh
 ```
 
 ## Run the image locally with kubernetes
