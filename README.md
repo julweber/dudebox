@@ -2,6 +2,8 @@
 
 Small handy Docker image for debugging within docker/kubernetes.
 
+----> https://cloud.docker.com/repository/registry-1.docker.io/julianweberdev/dudebox
+
 ## Building the image
 Ensure you are logged in to your docker repository.
 You can adjust the target repository by adjusting the DOCKER_REPO env variable in build.sh.
