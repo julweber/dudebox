@@ -1,6 +1,6 @@
 # DUDEBOX
 
-Small handy Docker image for debugging within docker/kubernetes.
+Small handy Docker image for debugging within docker/kubernetes. Based on alpine installing sysop tools.
 
 ----> https://cloud.docker.com/repository/registry-1.docker.io/julianweberdev/dudebox
 
