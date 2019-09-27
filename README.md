@@ -20,7 +20,7 @@ bash push_image.sh
 ```
 
 ## Using the image locally
-Start a bash shell in a local container:
+Start a sh shell in a local container:
 
 ```
 DOCKER_REPO=julianweberdev
@@ -29,7 +29,7 @@ docker run -i -t "$DOCKER_REPO/$IMAGE" /bin/bash
 ```
 
 ## Run the image locally with kubernetes
-Start a bash shell in a local container:
+Start a sh shell in a local container:
 
 ```
 DOCKER_REPO=julianweberdev
@@ -40,3 +40,5 @@ kubectl run -i -t --generator=deployment/apps.v1 --image=$DOCKER_REPO/$IMAGE $DE
 
 # remove container afterwards
 kubectl delete deployments/$DEPLOYMENT
+# view all running pods
+kubectl get pods --all-namespaces
